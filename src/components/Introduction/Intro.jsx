@@ -3,7 +3,7 @@ import "./Intro.scss"
 export default function Intro() {
     return (
         <div class="intro" id="intro">
-           aaaa
+          Hey I am Hritik
         </div>
     )
 }
