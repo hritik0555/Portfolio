@@ -6,19 +6,17 @@ export default function Work() {
 
     const [currentSlider,setCurrentSlider]=useState(0);
     const data=[
+       
+
+        
+
         {
             id:1,
-            icon:"assets/hritik.png"
+            icon:"assets/GCP-1.png"
         },
-
         {
             id:2,
             icon:"assets/Certificate.png"
-        },
-
-        {
-            id:3,
-            icon:"assets/GCP-1.png"
         },
 
     ];
@@ -34,12 +32,17 @@ export default function Work() {
 
 
     return (
+        
         <div className="works" id="work">
+
+            
     
     <div className="slider" style={{transform:`translateX(-${currentSlider*100}vw)`}}>
+    
         {data.map(d=>(
 
 <div className="container">
+
         <div className="item">
            
 
@@ -59,8 +62,8 @@ export default function Work() {
    
     </div>
 
-    <img src="assets/slider.png"  className="arrow left" alt="" onClick={()=>handleClick("left")} />
-    <img src="assets/slider.png" className="arrow right" alt="" onClick={()=>handleClick("")} />
+    <img src="assets/a1.png"  className="arrow left" alt="" onClick={()=>handleClick("left")} />
+    <img src="assets/a1.png" className="arrow right" alt="" onClick={()=>handleClick("")} />
         </div>
     )
 }

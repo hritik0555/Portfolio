@@ -1,5 +1,7 @@
+@import "../../global.scss";
+
 .works{
-    background-color: #000;
+    background-color: red;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -11,16 +13,22 @@
      height:60px;
      position:absolute;
      cursor:pointer;
+
+     @include mobile{
+      display:none;
+     }
+     
      
 
 
      &.left{
          left:100px;
-         transform: rotate(-180deg);
+         transform: rotate(-90deg);
      }
 
      &.right{
          right:100px;
+         transform: rotate(90deg);
      }
     }
 
@@ -31,6 +39,13 @@
         position: absolute;
         left:0vw;
         transition: all 1s ease-out;
+
+
+        @include mobile{
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+        }
        
 
         .container{
@@ -48,6 +63,13 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+
+                @include mobile{
+                   width: 90%;
+                   height: 80%;
+                   margin:10px 0;
+                }
 
 
             //    .left{

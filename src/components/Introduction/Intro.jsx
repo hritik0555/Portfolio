@@ -28,7 +28,7 @@ const textRef=useRef();
             <div className="wrapper">
               <h2>Hey, I'm</h2>
               <h1>Hritik Gautam</h1>
-              <h3>Full-Stack Developer <span ref={textRef}></span></h3>
+              <h3>Full Stack Developer <span ref={textRef}></span></h3>
             </div>
           </div>
         </div>
