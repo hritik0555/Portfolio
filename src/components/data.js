@@ -4,7 +4,7 @@ export const webPortfolio=[
     id:1,
     title:"Simons Game",
     img:"https://res.cloudinary.com/practicaldev/image/fetch/s--W7GejIJa--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/dcpjkjeyphzebkjyvemv.png",
-    link:"https://hritik0555.github.io/Simons-Game/"
+    // link:"https://hritik0555.github.io/Simons-Game/"
 },
 {
     id:2,
@@ -12,9 +12,9 @@ export const webPortfolio=[
     img:"https://content.jdmagicbox.com/comp/orai/t4/9999p5162.5162.181128074238.e6t4/catalogue/sacred-heart-centenary-school-orai-secondary-schools-v5bc1qaws3.jpg?clr=223344"
 },
 {
-    id:1,
-    title:"Notes App",
-    img:"https://www.epw.in/system/files/note.png"
+    id:3,
+    title:"Drums Kit",
+    img:"https://www.yamaha.com/en/musical_instrument_guide/common/images/drums/parts_viewer01.jpg"
 },
 
 
