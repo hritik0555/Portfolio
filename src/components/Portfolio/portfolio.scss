@@ -15,12 +15,12 @@
         
 
         @include mobile{
-            font-size:25px;
+            font-size:20px;
         }
     }
 
     ul{
-        margin:20px 0px;
+        margin:15px 0px;
         padding:0;
         list-style: none;
         display:flex;
@@ -29,6 +29,7 @@
         @include mobile{
             
             flex-wrap: wrap;
+            
            
         }
         
@@ -58,14 +59,18 @@
             transition: all 1s ease;
  
             @include mobile{
-                width:250px;
-                height: 250px;
+                width:180px;
+                height: 130px;
             }
            
                 h3{
                     font-size: 22px;
                     position:absolute;
                     color:#fff;
+
+                    @include mobile{
+                        font-size: 15px;
+                    }
                    
                 }
      
