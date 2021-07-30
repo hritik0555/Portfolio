@@ -48,8 +48,12 @@ export default function Portfolio() {
 
             <div className="container">
                 {data.map(d=>(
+        
 
-               
+                <a href={d.link}>
+
+                
+           
                 <div className="item">
                    
                     <img src={d.img} />
@@ -57,6 +61,7 @@ export default function Portfolio() {
                     <h3>{d.title}</h3>
                     
                 </div>
+                </a>
                 ))}
                 
                 

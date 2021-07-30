@@ -7,6 +7,7 @@ import Contact from "./components/Contact/Contact";
 import Menu from "./components/menu/Menu";
 import "./App.scss";
 import { useState } from "react";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -24,8 +25,10 @@ const [menuopen, setMenuopen] = useState(false);
      <Portfolio/>
      <Work/>
      <Contact/>
-      
+     
+     <Footer/>
      </div>
+    
     </div>
   );
 }
