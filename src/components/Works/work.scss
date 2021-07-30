@@ -17,7 +17,7 @@
      background-color: #fff;
 
      @include mobile{
-      display:none;
+      height:20px;
     
 
      }
@@ -28,12 +28,20 @@
      &.left{
          left:100px;
          transform: rotate(-90deg);
+
+         @include mobile{
+             left:10px;
+         }
          
      }
 
      &.right{
          right:100px;
          transform: rotate(90deg);
+
+         @include mobile{
+            right:10px;
+        }
         
      }
     }
@@ -49,8 +57,8 @@
 
         @include mobile{
             height: 100vh;
-            flex-direction: column;
-            justify-content: center;
+            // flex-direction: column;
+            // justify-content: center;
             
         }
        
@@ -73,7 +81,7 @@
 
 
                 @include mobile{
-                   width: 90%;
+                   width: 80%;
                    height: 220px;
                    margin:25px 0;
                   
@@ -88,12 +96,12 @@
                 justify-content: center;
                  object-fit: cover;
                 height: 100%;
-                width: 80%;
+                width: 90%;
                 overflow: hidden;
 
                 @include mobile{
                     
-                    width:80%;
+                    width:90%;
                     height:80%;
                    
                 }
