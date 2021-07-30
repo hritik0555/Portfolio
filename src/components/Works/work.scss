@@ -75,18 +75,13 @@
 
 
                 @include mobile{
-                   width: 75%;
-                   height: 60%;
+                   width: 500px;
+                   height: 80%;
                    margin:10px 0;
                 }
 
 
-            //    .left{
-            //        height: 100%;
-            //        display: flex;
-            //     align-items: center;
-            //     justify-content: center;
-            //     overflow: hidden;
+            
 
                 .imgcontainer{
                 display: flex;
@@ -98,8 +93,10 @@
                 overflow: hidden;
 
                 @include mobile{
+                    
                     width:75%;
                     height:60%;
+                   
                 }
 
 
